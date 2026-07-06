@@ -1,4 +1,5 @@
 from funcoes import *
+from banco import user_dados
 
 
 
@@ -34,4 +35,13 @@ while True:
 
     personagem_escolhido = escolher_personagem()
 
+    nome_do_jogador = dados_usuario()
+
+    user_dados["personagem"] = personagem_escolhido["nome"]
+    user_dados["username"]   = nome_do_jogador
+
+    intro_jornada(nome_do_jogador)
+
+    acampamento(personagem_escolhido)
     break
+        

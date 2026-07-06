@@ -30,4 +30,6 @@ personagens = {
         "velocidade": 7,
         "descricao": "Muito dano e utilidade, mas pouca vida.",
     }
+    
 }
+
